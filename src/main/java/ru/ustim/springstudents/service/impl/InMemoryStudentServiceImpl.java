@@ -11,10 +11,27 @@ public class InMemoryStudentServiceImpl implements StudentService {
 
     @Override
     public List<Student> findAllStudent() {
-        return List.of(
-                Student.builder().firstName("Denis").email("ustimenko82@mail.ru").age(42).build(),
-                Student.builder().firstName("Petr").email("vasiliev@mail.ru").age(41).build(),
-                Student.builder().firstName("Ivan").email("sidorov@mail.ru").age(35).build()
-        );
+        return null;
     }
+
+    @Override
+    public Student saveStudent(Student student) {
+        return null;
+    }
+
+    @Override
+    public Student findByEmail(String email) {
+        return null;
+    }
+
+    @Override
+    public Student updateStudent(Student student) {
+        return null;
+    }
+
+    @Override
+    public void deleteStudent(String email) {
+
+    }
+
 }
